@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   async function getFunds() {
-    const funds = await axios.get('http://www.mocky.io/v2/5e3415ce3000008900d962b1');
+    const funds = await axios.get('https://www.mocky.io/v2/5e3415ce3000008900d962b1');
     setFunds(funds.data.content);
   }
 
