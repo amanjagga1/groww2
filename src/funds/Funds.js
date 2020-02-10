@@ -45,7 +45,7 @@ const Funds = (props) => {
         addOrRemove={addOrRemove}
         setPortfolio={props.setPortfolio}
       />
-      <Link to='/portfolio'>
+      <Link to='portfolio'>
         <Button primary floated='right'>Next</Button>
       </Link>
     </Fragment>
